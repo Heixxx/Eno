@@ -1,0 +1,123 @@
+$main-color: rgb(210, 79, 111);
+
+.sectionPrivacy {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 8em;
+    .title {
+        font-size: 1.6rem;
+        color: $main-color;
+        hr {
+            width: 60%;
+            height: 1px;
+            background-color: $main-color;
+            border: none;
+        }
+    }
+    .text {
+        margin: 1em;
+        font-size: 1.2rem;
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        &:nth-last-child(1) {
+            margin-bottom: 5em;
+        }
+        img {
+            height: 80px;
+            margin-right: 1em;
+        }
+        a {
+            color: $main-color;
+        }
+    }
+    .point {
+        color: $main-color;
+        font-weight: bold;
+        text-align: center;
+        margin: 1em;
+    }
+    .normal{
+        flex-direction: column;
+        
+    }
+    .pictures{
+        text-align: center;
+    }
+    .left{
+        margin-top: .8em;
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        text-align: left;
+        ol{
+            padding: 0;
+        }
+        &:nth-last-of-type(2){
+            margin-bottom: 1em;   
+        }
+    }
+    .column{
+        flex-direction: column;
+        span{
+            padding-bottom: .2em;
+            margin: .6em 0;
+        }
+        div{
+            margin: .4em 0;
+        }
+    }
+    img{
+        margin: 1em;
+    }
+}
+@media (min-width: 768px) {
+    .sectionPrivacy {
+        .title {
+            font-size: 2.5rem;
+        }
+        .text {
+            font-size: 1.6rem;
+        }
+        .point {
+            font-size: 1.8rem;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .sectionPrivacy {
+        .title {
+            font-size: 2.8rem;
+        }
+        .text {
+            font-size: 1.8rem;
+        }
+        .point {
+            font-size: 2rem;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .sectionPrivacy {
+        max-width: 1200px;
+        margin-top: 10em;
+        .title {
+            font-size: 3.4rem;
+        }
+        .text {
+            font-size: 2rem;
+            img {
+                height: 100px;
+            }
+        }
+        .point {
+            font-size: 2.2rem;
+        }
+    }
+}

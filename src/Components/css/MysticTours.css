@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.section {
+  position: relative;
+  height: 100vh;
+}
+.section .table {
+  position: relative;
+  left: 50%;
+  margin-top: 8em;
+  width: 80%;
+  min-height: 90%;
+  transform: translateX(-50%);
+}
+.section .table__container {
+  width: 100%;
+  position: relative;
+  background-color: whitesmoke;
+  margin: 2em 0;
+}
+.section .table__container-img {
+  position: relative;
+  width: 100%;
+}
+.section .table__container-title, .section .table__container-text, .section .table__container-source {
+  display: block;
+  text-transform: uppercase;
+  margin: 1em auto;
+  width: 100%;
+}
+.section .table__container-title {
+  text-align: center;
+  font-size: 2rem;
+  width: 90%;
+  color: rgb(210, 79, 111);
+}
+.section .table__container-text {
+  display: block;
+  text-align: center;
+  text-transform: none;
+  font-size: 1.4rem;
+  margin: 1em auto;
+  width: 90%;
+}
+.section .table__container-source {
+  display: flex;
+  width: 90%;
+  height: 4em;
+  padding-bottom: 2em;
+  text-transform: none;
+  justify-content: end;
+  align-items: end;
+  font-size: 1rem;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+.section .table__container-source a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #5c0b0b;
+  padding: 0.5em;
+}
+.section .table:last-of-type {
+  padding-bottom: 2em;
+}
+.section .table .img1 .table__container-img {
+  width: 100%;
+}
+.section .table .img1 img {
+  width: 1299px; /* Dostosuj szerokość według potrzeb */
+  background-image: url("../img/mysticTours/ursabig.jpg");
+  background-size: cover; /* Dopasuj obraz do rozmiaru elementu */
+}
+
+@media (min-width: 576px) {
+  .section .table__container-title {
+    font-size: 2.5rem;
+  }
+  .section .table__container-text {
+    font-size: 1.8rem;
+  }
+  .section .table__container-source {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .section .table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .section .table__container {
+    max-width: 614px;
+  }
+  .section .table__container-title {
+    font-size: 3rem;
+  }
+  .section .table__container-text {
+    font-size: 2rem;
+  }
+  .section .table__container-source {
+    font-size: 1.6rem;
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 992px) {
+  .section .table__container {
+    max-width: 800px;
+  }
+  .section .table__container-title {
+    font-size: 3.2rem;
+  }
+  .section .table__container-text {
+    font-size: 2.2rem;
+  }
+  .section .table__container-source {
+    font-size: 1.6rem;
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  .section .table__container {
+    max-width: 1200px;
+  }
+  .section .table__container-title {
+    font-size: 3.6rem;
+  }
+  .section .table__container-text {
+    font-size: 2.6rem;
+  }
+  .section .table__container-source {
+    font-size: 1.8rem;
+    padding-bottom: 1em;
+  }
+}/*# sourceMappingURL=MysticTours.css.map */

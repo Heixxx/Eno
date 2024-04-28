@@ -1,0 +1,96 @@
+.sectionThree .carousele {
+  width: 280px;
+  height: 600px;
+  background-color: none;
+}
+.sectionThree img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sectionThree button {
+  display: none;
+}
+
+.c1 {
+  background-image: url("../img/carousel_img/111.JPG");
+}
+
+.c2 {
+  background-image: url("../img/carousel_img/2.jpg");
+}
+
+.c3 {
+  background-image: url("../img/carousel_img/3.jpg");
+}
+
+.c4 {
+  background-image: url("../img/carousel_img/4.jpg");
+}
+
+.c5 {
+  background-image: url("../img/carousel_img/5.jpg");
+}
+
+.c6 {
+  background-image: url("../img/carousel_img/6.jpg");
+}
+
+.c7 {
+  background-image: url("../img/carousel_img/7.JPG");
+}
+
+.c8 {
+  background-image: url("../img/carousel_img/8.JPG");
+}
+
+.c9 {
+  background-image: url("../img/carousel_img/9.jpg");
+}
+
+.c10 {
+  background-image: url("../img/carousel_img/10.jpg");
+}
+
+.c11 {
+  background-image: url("../img/carousel_img/11.jpg");
+}
+
+.c12 {
+  background-image: url("../img/carousel_img/12.jpg");
+}
+
+.c13 {
+  background-image: url("../img/carousel_img/DK.jpg");
+}
+
+@media (min-width: 450px) {
+  .sectionThree .carousele {
+    width: 450px;
+  }
+}
+@media (min-width: 576px) {
+  .sectionThree .carousele {
+    width: 576px;
+  }
+}
+@media (min-width: 768px) {
+  .sectionThree .carousele {
+    width: 768px;
+  }
+}
+@media (min-width: 992px) {
+  .sectionThree .carousele {
+    width: 850px;
+  }
+  .sectionThree button {
+    display: flex;
+  }
+}
+@media (min-width: 1200px) {
+  .sectionThree .carousele {
+    width: 1000px;
+  }
+}/*# sourceMappingURL=carousele.css.map */

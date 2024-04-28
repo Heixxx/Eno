@@ -1,0 +1,172 @@
+$main-color: rgb(210, 79, 111);
+
+
+.section {
+    position: relative;
+    height: 100vh;
+    .table {
+        position: relative;
+        left: 50%;
+        margin-top: 8em;
+        width: 80%;
+        min-height: 90%;
+        transform: translateX(-50%);
+        &__container {
+            width: 100%;
+            position: relative;
+            background-color: whitesmoke;
+            margin: 2em 0;
+            &-img {
+                position: relative;
+                width: 100%;
+            }
+            &-title,
+            &-text,
+            &-source {
+                display: block;
+                text-transform: uppercase;
+                margin: 1em auto;
+                width: 100%;
+            }
+            &-title {
+                text-align: center;
+                font-size: 2rem;
+                width: 90%;
+                color: $main-color;
+            }
+            &-text {
+                display: block;
+                text-align: center;
+                text-transform: none;
+                font-size: 1.4rem;
+                margin: 1em auto;
+                width: 90%;
+            }
+            &-source {
+                display: flex;
+                width: 90%;
+                height: 4em;
+                padding-bottom: 2em;
+                text-transform: none;
+                justify-content: end;
+                align-items: end;
+                font-size: 1rem;
+                text-decoration: dashed;
+                a {
+                    font-size: 1em;
+                    text-decoration: none;
+                    color: #5c0b0b;
+                    padding: 0.5em;
+                }
+            }
+        }
+        &:last-of-type {
+            padding-bottom: 2em;
+        }
+        .img1 {
+            .table__container-img {
+                width: 100%;
+            }
+            img {
+                width: 1299px; /* Dostosuj szerokość według potrzeb */
+                // height: 1500px; /* Dostosuj wysokość według potrzeb */
+                background-image: url("../img/mysticTours/ursabig.jpg");
+                background-size: cover; /* Dopasuj obraz do rozmiaru elementu */
+                // background-position: center; /* Wycentruj obraz */
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .section {
+        .table {
+            &__container {
+                &-title {
+                    font-size: 2.5rem;
+                }
+                &-text {
+                    font-size: 1.8rem;
+                }
+                &-source {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .section {
+        .table {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            &__container {
+                max-width: 614px;
+                &-title {
+                    font-size: 3rem;
+                }
+                &-text {
+                    font-size: 2rem;
+                }
+                &-source {
+                    font-size: 1.6rem;
+                    padding-bottom: 1em;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    .section {
+        .table {
+            &__container {
+                max-width: 800px;
+                &-title {
+                    font-size: 3.2rem;
+                }
+                &-text {
+                    font-size: 2.2rem;
+                }
+                &-source {
+                    font-size: 1.6rem;
+                    padding-bottom: 1em;
+                }
+                .img1 {
+                    img {
+                    }
+                }
+            }
+        }
+        // .img1 {
+        //     background-image: url("../img/mysticTours/ursabig.jpg");
+        // }
+    }
+}
+@media (min-width: 1200px) {
+    .section {
+        .table {
+            &__container {
+                max-width: 1200px;
+                &-title {
+                    font-size: 3.6rem;
+                }
+                &-text {
+                    font-size: 2.6rem;
+                }
+                &-source {
+                    font-size: 1.8rem;
+                    padding-bottom: 1em;
+                }
+                .img1 {
+                    img {
+                    }
+                }
+            }
+        }
+        // .img1 {
+        //     background-image: url("../img/mysticTours/ursabig.jpg");
+        // }
+    }
+}

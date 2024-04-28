@@ -1,0 +1,269 @@
+.public-DraftStyleDefault-block {
+  margin: 0.1em 0;
+}
+
+.sectionPost .Post {
+  position: relative;
+  margin-top: 5em;
+  font-size: 1.5rem;
+  padding-bottom: 2em;
+}
+.sectionPost .Post__container {
+  position: relative;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.sectionPost .Post__container-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.sectionPost .Post__container-img-image {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 300px;
+}
+.sectionPost .Post__container-img-shadow {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.sectionPost .Post__container-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(210, 81, 113);
+}
+.sectionPost .Post__container-title p {
+  width: 90%;
+}
+.sectionPost .Post__container .DraftEditor-root {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+.sectionPost .Post__container-text {
+  position: relative;
+  padding-top: 2em;
+  width: 95%;
+  margin: 0 auto;
+}
+.sectionPost .Post__container-text .title {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: rgb(210, 81, 113);
+}
+.sectionPost .Post__container-text .important {
+  font-weight: bold;
+}
+.sectionPost .Post__container .pdf {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin: 1em auto;
+  width: 95%;
+}
+.sectionPost .Post__container .pdf a {
+  color: rgb(210, 81, 113);
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+.sectionPost .Post__created-date {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 0.2em;
+  text-align: right;
+}
+.sectionPost .Post__additional-img {
+  margin: 0 auto;
+  max-width: 90%;
+}
+.sectionPost .Post__additional-img img {
+  margin-top: 2em;
+  max-height: 400px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .sectionPost .Post {
+    font-size: 2rem;
+  }
+  .sectionPost .Post__container-img-image {
+    height: 400px;
+  }
+  .sectionPost .Post__container-img-shadow {
+    height: 400px;
+  }
+  .sectionPost .Post__container-title {
+    height: 400px;
+  }
+  .sectionPost .Post__container-text {
+    font-size: 1.8rem;
+    padding-top: 1.5em;
+  }
+  .sectionPost .Post__container__additional-img {
+    max-height: 600px;
+  }
+  .sectionPost .Post__container__additional-img img {
+    min-height: 400px;
+    max-height: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .sectionPost .Post {
+    font-size: 2.2rem;
+  }
+  .sectionPost .Post__container-img-image {
+    height: 500px;
+  }
+  .sectionPost .Post__container-img-shadow {
+    height: 500px;
+  }
+  .sectionPost .Post__container-title {
+    height: 500px;
+  }
+  .sectionPost .Post__container-text {
+    font-size: 2rem;
+    padding-top: 1.5em;
+  }
+  .sectionPost .Post__container__additional-img img {
+    margin-top: 2em;
+    min-height: 700px;
+    max-height: 700px;
+  }
+}
+@media (min-width: 992px) {
+  .sectionPost .Post {
+    font-size: 2.4rem;
+  }
+  .sectionPost .Post__container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .sectionPost .Post__container-img {
+    width: 960px;
+  }
+  .sectionPost .Post__container-img-image {
+    height: 500px;
+  }
+  .sectionPost .Post__container-img-shadow {
+    height: 500px;
+  }
+  .sectionPost .Post__container-title {
+    height: 500px;
+  }
+  .sectionPost .Post__container-text {
+    font-size: 2.2rem;
+    padding-top: 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .sectionPost .Post {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .sectionPost .Post__container {
+    margin-top: 5em;
+    padding: 0;
+    flex-direction: column;
+  }
+  .sectionPost .Post__container-img {
+    position: absolute;
+    width: 992px;
+    height: 500px;
+  }
+  .sectionPost .Post__container-title {
+    width: 100%;
+    height: 500px;
+  }
+  .sectionPost .Post__container-text {
+    padding-top: 1em;
+  }
+  .sectionPost .Post .pdf {
+    text-align: left;
+  }
+  .sectionPost .Post .pdf a {
+    font-size: 2rem;
+  }
+  .sectionPost .Post__additional-img img {
+    min-height: 700px;
+    max-height: 700px;
+    margin-top: 2em;
+  }
+}
+@media (min-width: 1400px) {
+  .sectionPost .Post {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .sectionPost .Post__container {
+    margin-top: 5em;
+    background-color: rgba(210, 79, 111, 0.08);
+    width: 1200px;
+    padding: 1em;
+    flex-direction: column;
+  }
+  .sectionPost .Post__container-img {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+  }
+  .sectionPost .Post__container-img-image {
+    height: 600px;
+  }
+  .sectionPost .Post__container-img-shadow {
+    height: 600px;
+  }
+  .sectionPost .Post__container-title {
+    width: 100%;
+    height: 600px;
+  }
+  .sectionPost .Post__container .DraftEditor-root {
+    width: 100%;
+  }
+  .sectionPost .Post__container-text {
+    padding-top: 1em;
+    width: 100%;
+  }
+  .sectionPost .Post .pdf {
+    width: 100%;
+  }
+  .sectionPost .Post .pdf a {
+    font-size: 2rem;
+  }
+}
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+.skeleton {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(95deg, rgba(210, 81, 113, 0.06) 25%, rgba(210, 81, 113, 0.1) 50%, rgba(210, 81, 113, 0.06) 75%);
+  background-size: 200px 100%;
+  animation: skeleton-loading 2s infinite ease-in-out;
+}/*# sourceMappingURL=posts.css.map */

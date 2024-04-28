@@ -1,0 +1,289 @@
+@charset "UTF-8";
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.log label {
+  font-size: 1.6rem;
+  color: rgb(75, 6, 15);
+}
+.log button {
+  color: whitesmoke;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 14px;
+}
+
+.Button__panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(24, 76, 136);
+  position: absolute;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  right: 0;
+  transform: translateX(100%);
+}
+.Button__panel-buttons {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Button__panel-buttons button {
+  margin: 1em 0em;
+  padding: 0.8em;
+  color: whitesmoke;
+  transition: 0.3s;
+}
+.Button__panel-buttons button:hover {
+  transform: scale(1.2);
+}
+
+.Panel {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle, rgba(126, 80, 80, 0.57) 0%, rgba(54, 26, 33, 0.8) 50%);
+}
+.Panel .test {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(210, 79, 111);
+}
+.Panel .Options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 2em;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  min-height: 400px;
+  height: 60%;
+  background-color: rgb(73, 38, 38);
+}
+.Panel .Options .sessionTimer {
+  color: white;
+}
+.Panel .Options .message {
+  position: fixed;
+  top: -100px;
+  z-index: 200;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #18124e;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #3a1317;
+  transition: top 0.5s ease;
+  font-size: 2rem;
+  color: white;
+}
+.Panel .Options .message.show {
+  top: 20px;
+}
+.Panel .Options .Btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+.Panel .Options .Btns .sessionTimer {
+  top: 0;
+  padding-top: 1em;
+  position: absolute;
+}
+.Panel .Options .Btns .sessionTimer button {
+  color: whitesmoke;
+}
+.Panel .Options .button {
+  height: 60px;
+  width: 200px;
+  border-radius: 15px;
+  color: whitesmoke;
+  margin: 0 1em;
+}
+.Panel .Options .addBtn {
+  background: rgb(10, 92, 216);
+}
+.Panel .Options .editBtn {
+  background-color: rgb(23, 165, 18);
+}
+.Panel .Options .delBtn {
+  background-color: rgb(165, 18, 18);
+}
+.Panel .Options .passBtn {
+  background-color: rgb(34, 32, 32);
+}
+.Panel .Options .logout {
+  background-color: rgb(90, 15, 69);
+}
+.Panel .Options .pdf.img {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Panel .Options .pdf-span {
+  margin: 0 1em;
+}
+.Panel button {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.Panel .list,
+.Panel .changePass {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 1000px;
+  height: 600px;
+  background-color: rgb(17, 47, 53);
+  font-size: 2rem;
+  color: white;
+  padding: 0;
+}
+.Panel .list button,
+.Panel .changePass button {
+  color: rgb(230, 170, 60);
+}
+.Panel .list {
+  max-height: 600px; /* Możesz dostosować tę wartość */
+  overflow-y: auto;
+}
+.Panel .list li {
+  margin: 1em 0;
+}
+.Panel .list button {
+  margin: 1em 0;
+}
+.Panel .changePass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Panel .changePass input {
+  margin: 2em 0;
+  height: 40px;
+  position: relative;
+  font-size: 2rem;
+  border-radius: 10px;
+  width: 30%;
+}
+.Panel .changePass button {
+  width: 30%;
+  position: relative;
+  color: whitesmoke;
+  padding: 1em;
+}
+.PanelAdd, .PanelEdit {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 1400px;
+  height: 100%;
+  min-height: 700px;
+  background-color: rgb(17, 47, 53);
+  font-size: 2rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.PanelAdd input, .PanelEdit input {
+  width: 200px;
+  margin: 0 1em;
+}
+.PanelAdd .inputs, .PanelEdit .inputs {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+}
+.PanelAdd .title, .PanelEdit .title {
+  position: relative;
+  margin-top: 1em;
+  position: relative;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.PanelAdd .title .loadDraftBtn, .PanelEdit .title .loadDraftBtn {
+  position: absolute;
+  right: 0;
+  padding-right: 2em;
+}
+.PanelAdd .titleInput, .PanelEdit .titleInput {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+}
+.PanelAdd .textInput, .PanelEdit .textInput {
+  font-size: 2rem;
+  width: 50%;
+  min-height: 250px;
+  max-height: 500px;
+  z-index: 22;
+  margin: 1em 0;
+  max-width: 1200px;
+  min-width: 1200px;
+  overflow: auto;
+}
+.PanelAdd .wrapper-class, .PanelEdit .wrapper-class {
+  width: 90%;
+  margin: 0 auto;
+  min-height: 300px;
+  background-color: whitesmoke;
+  font-size: 1.8rem;
+  color: black;
+  max-height: 50%;
+  border: 1px solid black;
+}
+.PanelAdd .editor-class, .PanelEdit .editor-class {
+  max-height: 72%;
+}
+.PanelAdd .inp, .PanelEdit .inp {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  border: none;
+  width: 22%;
+}
+.PanelAdd .btnn, .PanelEdit .btnn {
+  background-color: #1a5342;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+}
+.PanelAdd-textarea, .PanelEdit-textarea {
+  font-size: 1.8rem;
+}
+.PanelAdd-X, .PanelEdit-X {
+  position: absolute;
+  width: 200px;
+  top: 20px;
+  right: 0;
+  height: 50px;
+  margin: 0.2em;
+}
+.PanelAdd-X p, .PanelEdit-X p {
+  font-size: 5rem;
+  color: red;
+  width: 50px;
+  height: 50px;
+}/*# sourceMappingURL=panel.css.map */
