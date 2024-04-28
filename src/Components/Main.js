@@ -392,26 +392,6 @@ function Main() {
                     </div>
                 </div>
             </section>
-            <section className="otherWebsites">
-                <a
-                    href="https://rsf.pl/pl/polish-flavors"
-                    rel="noopener"
-                    target="_blank">
-                    <img src={polishflavors}></img>
-                </a>
-                <a
-                    href="https://www.dworkombornia.pl/pl/"
-                    rel="noopener"
-                    target="_blank">
-                    <img src={dwor}></img>
-                </a>
-                <a
-                    href="https://rsf.pl/pl/chocowine"
-                    rel="noopener"
-                    target="_blank">
-                    <img src={choco}></img>
-                </a>
-            </section>
             <footer className="sectionFooter" id="Contact">
                 <div className="section">
                     <h2 className="section-title">
@@ -430,19 +410,19 @@ function Main() {
                     </div>
                     <div className="section__Info">
                         <div className="section__Info-title">
-                            <p>Fundacja ENO Carpathian:</p>
+                            <p>ENO :</p>
                         </div>
                         <div className="section__Info-info">
-                            <p>Ul. Dworska 52, 38-420 Korczyna</p>
+                            <p>Ul. Dworska 22</p>
                         </div>
                         <div className="section__Info-info">
-                            <p>Tel.:(+48) 13 435 42 89</p>
+                            <p>Tel.:(+48) 13 333 32 32</p>
                         </div>
                         <div className="section__Info-info">
-                            <p>Konto: 38109025900000000144519613</p>
+                            <p>Konto: 43442444</p>
                         </div>
                         <div className="section__Info-info">
-                            <p>fundacja@enocarpathian.eu</p>
+                            <p>fundacja@xxx.eu</p>
                         </div>
                     </div>
                     <div className="section__Info">
@@ -456,19 +436,19 @@ function Main() {
                             <p>Kontakt dla zamówień detalicznych:</p>
                         </div>
                         <div className="section__Info-info">
-                            <p>wino@SalonWinKarpackich.pl</p>
+                            <p>wino@xxx.pl</p>
                         </div>
                         <div className="section__Info-info">
                             <p>
-                                Kontakt dla zamówień hurtowych i HoReCa:
-                                biuro@RSF.pl
+                                Kontakt dla zamówień:
+                                ffff.pl
                             </p>
                         </div>
                         <div className="section__Info-info">
-                            <p>RSF Sp z.o.o. Kombornia 1, 38-420 Korczyna,</p>
+                            <p>RSF Sp z.o.o. ffffff,</p>
                         </div>
                         <div className="section__Info-info">
-                            <p>Tel.:(+48) 13 435 42 89</p>
+                            <p>Tel.:(+48) 4 344 344 34 </p>
                         </div>
                     </div>
                 </div>
