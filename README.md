@@ -1,10 +1,14 @@
-Images:
+# Images:
 ![image](https://github.com/Heixxx/Eno/assets/101058402/411732f1-8774-46bd-845c-1509b5081207)
 ![image](https://github.com/Heixxx/Eno/assets/101058402/665a5eaa-7f52-42e6-9557-22ec85fb34ae)
 ![image](https://github.com/Heixxx/Eno/assets/101058402/3569f70c-ced7-42a3-b76d-91ae014ae752)
 ![image](https://github.com/Heixxx/Eno/assets/101058402/5aa538f7-d29e-4fdc-83a7-a10d00a845de)
 ![image](https://github.com/Heixxx/Eno/assets/101058402/7873e77b-251a-4d52-955c-d4ce8a5d0b77)
 
+# Mobi:
+![image](https://github.com/Heixxx/Eno/assets/101058402/7f217072-cc29-4bfd-b7c3-5a1cc7ccbc79)
+![image](https://github.com/Heixxx/Eno/assets/101058402/a856eda5-b846-4215-b809-f9e689356074)
+![image](https://github.com/Heixxx/Eno/assets/101058402/3854be40-f5fd-4608-a81d-49cd642906f9)
 
 
 
