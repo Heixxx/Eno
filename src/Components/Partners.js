@@ -1,6 +1,4 @@
 import "./css/privacy.css";
-import apev from "./img/logo_APEV.jpg";
-import vindep from "./img/Vindependent_logo_1.jpg";
 
 function Journey() {
     return (
@@ -15,7 +13,6 @@ function Journey() {
                 </span>
             </div>
             <div className="text">
-                <img src={apev} alt="logo Apev"></img>
                 <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                     <a
@@ -31,7 +28,6 @@ function Journey() {
                     ffff
                 </span>
             </div>
-            <img src={vindep}></img>
             <div className="text">
                 <span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 

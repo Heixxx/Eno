@@ -72,7 +72,7 @@ function Main() {
             <section className="sectionOne">
                 <div className="section">
                     <h1 className="enotourism">
-                        <p>Enoturystyka - Odkrywaj Świat Wina i Kultury</p>
+                        <p>Turystyka - Odkrywaj Świat Wina i Kultury</p>
                         <hr></hr>
                     </h1>
                     <div className="carouselReact" data-aos="fade-center">
@@ -104,7 +104,7 @@ function Main() {
                                             <p className="special">
                                                 Carpatian mystic tours -
                                             </p>
-                                            Zmysłowa prodóż po karpackich
+                                            Zmysłowa prodóż po
                                             szlakach Zapraszamy Państwa do
                                             udziału w unikalnej podróży zmysłów,
                                             będącej jednocześnie przerwą z dala
@@ -145,7 +145,7 @@ function Main() {
                                             na niezapomnianą podróż po świecie
                                             lokalnych win! Przyjdź, aby
                                             doświadczyć wyjątkowej degustacji i
-                                            odkryć bogactwo smaków karpackich
+                                            odkryć bogactwo smaków
                                             winnic. Zanurz się w kulturę wina i
                                             smak przygody!
                                         </span>
@@ -174,16 +174,14 @@ function Main() {
                                         <span>
                                             Na szlaku{" "}
                                             <p className="special">
-                                                Carpathian Mystic Tours
+                                                Mystic Tours
                                             </p>{" "}
-                                            zapraszamy do odpoczynku w dworze
-                                            kombornia. Jest to jeden z najlepiej
+                                            zapraszamy do odpoczynku. Jest to jeden z najlepiej
                                             zachowanych zespołów
                                             rezydencjonalnych w
                                             południowo-wschodniej Polsce.
-                                            Kompleks zawiera Hotel & SPA, salon
-                                            win karpackich oraz restaurację
-                                            Magnolia.
+                                            Kompleks zawiera Hotel & SPA oraz salon
+                                            win.
                                         </span>
                                     </div>
                                     <a
@@ -339,7 +337,7 @@ function Main() {
                     <div className="container">
                         <div className="text">
                             <span>
-                                TRADYCYJNE SMAKI KARPAT DZIEDZICTWO POGRANICZA
+                                TRADYCYJNE SMAKI DZIEDZICTWO POGRANICZA
                                 NA RZECZ ROZWOJU
                             </span>
                         </div>
@@ -362,17 +360,13 @@ function Main() {
                     <div className="sectionf__all">
                         <div className="sectionf__all-aboutText">
                             <p>
-                                Fundacja ENO Carpathia powstała w 2013 roku z
+                                Fundacja powstała w 2010 roku z
                                 inicjatywy fascynatów, zaangażowanych w
                                 budowanie potencjału turystycznego regionu w
                                 oparciu o kulturę wina jaka powstała i rozwija
                                 się na całym obszarze Karpat.
                             </p>
                         </div>
-                        <img
-                            className="sectionf__all-img"
-                            alt="Fundacja EnoCarpatian"
-                            src={eno}></img>
                         <div className="sectionf__Btns">
                             <a
                                 className="sectionf__Btns-Btn"
@@ -410,7 +404,7 @@ function Main() {
                     </div>
                     <div className="section__Info">
                         <div className="section__Info-title">
-                            <p>ENO :</p>
+                            <p>Fundacja :</p>
                         </div>
                         <div className="section__Info-info">
                             <p>Ul. Dworska 22</p>

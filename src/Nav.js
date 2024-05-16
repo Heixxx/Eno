@@ -67,7 +67,7 @@ function App() {
                                             rel="noopener"
                                             target="_blank"
                                             onClick={toggleMobileNav}>
-                                            Salon karpakich win
+                                            Wina
                                         </a>
                                         <hr />
                                     </li>
@@ -115,7 +115,7 @@ function App() {
                                             className="link"
                                             to="/Tours"
                                             onClick={toggleMobileNav}>
-                                            Carpathian mystic tours
+                                            Tours
                                         </Link>
                                         <hr />
                                     </li>
@@ -124,7 +124,7 @@ function App() {
                                             className="link"
                                             href="/#pdf"
                                             onClick={toggleMobileNav}>
-                                            Tradycyjne smaki karpat
+                                            Tradycyjne smaki
                                         </a>
                                         <hr />
                                     </li>
@@ -177,7 +177,7 @@ function App() {
                             <div className="side">
                                 <li>
                                     <Link className="link" to="/Tours">
-                                        Carpathian mystic tours
+                                        mystic tours
                                     </Link>
                                     <hr />
                                 </li>
